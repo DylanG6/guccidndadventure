@@ -1,0 +1,45 @@
+<html>
+    
+<head>
+<title>The Market</title>
+<link href="marketstyle.css" type="text/css" rel="stylesheet">
+</head>
+  
+ <script>
+    
+    var potionofhealing = -5
+    
+    var potionofdamage = -5
+    
+    var armor = -30
+    
+    var money = 30  
+    
+    </script>
+    
+<body>
+    <a href="goodpurchase.html"><button id="authentic" type="hidden" style="color:red;border-radius:10px;height: 200px;width: 250px;font-size: 20px;">Potion of Healing : 5 Gold money <script> var money-5</script> </button></a>
+        <a href="goodpurchase1.html"><button id="authentic" type="hidden" style="color:red;border-radius:10px;height: 200px;width: 250px;font-size: 20px;">Potion of Damage : 5 Gold <script> var money-5</script> </button></a>
+            <a href="goodpurchase2.html"><button id="authentic" type="hidden" style="color:red;border-radius:10px;height: 200px;width: 250px;font-size: 20px;">Armor : 30 Gold <script> var money-30 </script> </button></a>
+                <a href="city.html"><button style="color:red;border-radius:10px;height: 200px;width: 250px;font-size: 20px;">Leave</button></a>
+    <div id="main">
+    <h1>DnD : The Knight's Curse</h1>
+    <hr>
+    <p>The Market Is Booming With People</p>
+        <p>You Can Smell Bread Being Baked</p>
+            <p>And People Leaving With Produce</p>
+                <p>What Do You Buy?</p>
+    </div>
+    </body>
+    
+    <script>        
+        var money = -3
+        if (money=<0)
+        {
+        document.getElementById('authentic').style.display = 'block';
+        } else {
+            document.getElementById('authentic').style.display = 'none';
+        }
+    </script>
+    
+</html>

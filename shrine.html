@@ -1,0 +1,30 @@
+<html>
+    
+<head>
+<title>Shrine</title>
+<link href="shrinestyle.css" type="text/css" rel="stylesheet">
+</head>
+    
+<body>
+    <a href="rip.html"><button style="color:red;border-radius:10px;height: 200px;width: 250px;font-size: 20px;">Pray</button></a>
+    <a href="bottomvalley.html"><button id="authentic" type="hidden" style="color:red;border-radius:10px;height: 200px;width: 250px;font-size: 20px;">Bring Light To It</button></a>
+    <a href="destroyedshrine.html"><button style="color:red;border-radius:10px;height: 200px;width: 250px;font-size: 20px;">Destroy It</button></a>
+    <div id="main">
+    <h1>DnD : The Knight's Curse</h1>
+    <hr>
+    <p>WOW!</p>
+        <p>You Find A Dark Shrine</p>
+            <p>The Entrance Closes Behind You</p>
+                <p>What Will You Do?</p>
+    </div>
+    </body>
+    <script>
+        if (name=="cleric")
+        {
+        document.getElementById('authentic').style.display = 'block';
+        } else {
+            document.getElementById('authentic').style.display = 'none';
+        }
+    </script>
+    
+</html>
